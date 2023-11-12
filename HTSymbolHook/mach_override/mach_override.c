@@ -56,7 +56,7 @@ char kIslandTemplate[] = {
 
 #define kInstructions	0
 #define kJumpAddress    kInstructions + kOriginalInstructionsSize + 1
-#elif defined(__x86_64__)
+#elif defined(__x86_64__)  || defined(__aarch64__)
 
 #define kOriginalInstructionsSize 32
 
